@@ -5,9 +5,12 @@ body {
 }
 
 header {
-    background-color: #222222;
-    color: #a1a1a1;
-    padding: 20px;
+    background-color: #cfcfcf;
+    background-image: linear-gradient(to bottom, #cfcfcf 75%,
+     #1f1f1f);
+    color: #242424;
+    padding: 30px;
+    padding-bottom: 50px;
 }
 
 h1 {

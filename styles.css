@@ -4,3 +4,12 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+header {
+    background-color: #292929;
+    color: #7a3535;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}

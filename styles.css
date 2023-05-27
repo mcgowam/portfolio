@@ -5,11 +5,14 @@ body {
     padding: 0;
     background-image: url("./image_src/stable-diffusion-xl_clipdrop-relight.jpeg");
     background-size: cover;
+    width: 100vw;
+    background-clip: border-box;
     background-color: #61616198;
 }
 
 #name_desc_holder {
     display: flex;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
     background-color: #1d1d1d;
@@ -75,4 +78,16 @@ hr {
 #contact {
     text-align: center;
     font-size: 30px;
+}
+
+#contact_list {
+    text-align: center;
+}
+
+#contact_list li {
+    display: block;
+}
+
+form label{
+    display: block;
 }

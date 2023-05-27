@@ -1,19 +1,13 @@
 header {
-    background-color: #cfcfcf;
-    background-image: linear-gradient(to bottom,
-            #cfcfcf 75%,
-            #1f1f1f);
-    color: #242424;
     margin: 0;
 }
 
-
 nav #navbarlist {
     background-color: rgb(46, 54, 52);
-    padding: 15px;
     display: flex;
     list-style: none;
     margin: 0;
+    padding: 15px;
 }
 
 #navbarlist li {
@@ -21,18 +15,22 @@ nav #navbarlist {
 }
 
 #navbarlist li a {
-    display: inline;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
-    color: #cfcfcf;
+    color: #d6d6d6;
     font-size: 22px;
     margin-right: 20px;
     text-decoration: none;
 }
 
-nav li a:hover {
+#navbarlist li a:hover {
     background-color: #ffffff;
-    color: #830f0f;
+    color: #292929;
+}
+
+#name_title{
+    text-align: center;
+    padding: 1.5cm;
 }
 
 body {

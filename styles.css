@@ -51,12 +51,12 @@ body {
     position: relative;
     flex-basis: calc(25% - 10px);
     max-width: 20vw;
-    min-width: 3.5cm;
+    min-width: 200px;
     transition: transform 0.3s ease-out;
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.25);
     z-index: 1;
 }
 

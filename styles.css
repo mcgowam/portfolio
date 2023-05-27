@@ -41,7 +41,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between
     align-items: center;
     margin: 5vw;
     gap: 15px;
@@ -49,7 +49,7 @@ body {
 
 .card {
     position: relative;
-    flex-basis: calc(25% - 10px);
+    flex-basis: calc(25% - 1px);
     max-width: 20vw;
     min-width: 200px;
     transition: transform 0.3s ease-out;

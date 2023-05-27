@@ -1,22 +1,44 @@
 header {
     background-color: #cfcfcf;
-    background-image: linear-gradient(to bottom, #cfcfcf 75%,
+    background-image: linear-gradient(to bottom,
+            #cfcfcf 75%,
             #1f1f1f);
     color: #242424;
-    padding: 30px;
-    padding-bottom: 50px;
+    margin: 0;
+}
+
+
+nav #navbarlist {
+    background-color: rgb(46, 54, 52);
+    padding: 15px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+#navbarlist li {
+    display: inline-block;
+}
+
+#navbarlist li a {
+    display: inline;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #cfcfcf;
+    font-size: 22px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #ffffff;
+    color: #292929;
 }
 
 body {
     background-color: #1f1f1f;
     color: beige;
     font-family: Helvetica, sans-serif;
-}
-
-nav ul #navbarlist {
-    display: flex;
-}
-
-nav ul li {
-    display:block;
+    margin: 0;
+    padding: 0;
 }

@@ -28,15 +28,43 @@ nav #navbarlist {
     color: #292929;
 }
 
-#name_title{
-    text-align: center;
-    padding: 1.5cm;
-}
-
 body {
     background-color: #1f1f1f;
     color: beige;
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+#name_desc_holder {
+    display: flex;
+    flex-direction: column;
+}
+
+#name_title {
+    display: block;
+    text-align: center;
+    padding: 1.5cm;
+    font-size: 48px;
+}
+
+.sbs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about {
+    display: block;
+    background-color: #3b3b3b;
+    border-radius: 0 22px 22px 0;
+    width: 33%;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+    margin-right: ;
+}
+
+img {
+    width: 45%;
 }

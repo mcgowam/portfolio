@@ -74,6 +74,9 @@ hr {
 
 #contact {
     text-align: center;
+    background-color: #273133;
+    padding-top: 15px;
+    margin-bottom: 0;
 }
 
 #contact_list {
@@ -115,4 +118,5 @@ form button[type="submit"] {
 
 #address {
     text-align: center;
+    margin: 0;
 }

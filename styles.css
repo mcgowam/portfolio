@@ -98,7 +98,7 @@ form input[type="textarea"] {
     border-radius: 10px;
 }
 
-form input[type="textarea"]  {
+form input[type="textarea"] {
     height: 2cm;
 }
 
@@ -111,4 +111,8 @@ form button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
+
+#address {
+    text-align: center;
+}

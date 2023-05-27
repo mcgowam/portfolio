@@ -5,14 +5,11 @@ body {
     padding: 0;
     background-image: url("./image_src/stable-diffusion-xl_clipdrop-relight.jpeg");
     background-size: cover;
-    width: 100vw;
-    background-clip: border-box;
     background-color: #61616198;
 }
 
 #name_desc_holder {
     display: flex;
-    width: 100vw;
     flex-direction: column;
     align-items: center;
     background-color: #1d1d1d;
@@ -77,7 +74,6 @@ hr {
 
 #contact {
     text-align: center;
-    font-size: 30px;
 }
 
 #contact_list {
@@ -88,6 +84,31 @@ hr {
     display: block;
 }
 
-form label{
+form label {
     display: block;
+    font-size: 25px;
 }
+
+form input[type="text"],
+form input[type="email"],
+form input[type="textarea"] {
+    width: 45vw;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+form input[type="textarea"]  {
+    height: 2cm;
+}
+
+form button[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -129,6 +129,10 @@ hr {
     margin-bottom: 0;
 }
 
+#contact p {
+    font-size: 20px;
+}
+
 form label {
     display: block;
     font-size: 25px;

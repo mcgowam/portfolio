@@ -93,6 +93,14 @@ body {
     background-color: rgb(31, 32, 32);
 }
 
+.detailed_entry:first-child {
+    border-radius: 3vw 3vw 0 0;
+}
+
+.detailed_entry:last-child {
+    border-radius: 0 0 3vw 3vw;
+}
+
 .detailed_img {
     max-width: 40vw;
     height:fit-content;

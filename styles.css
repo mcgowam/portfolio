@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: beige;
     font-family: Helvetica, sans-serif;
@@ -54,7 +58,7 @@ body {
     position: relative;
     flex-basis: calc(25% - 10px);
     max-width: 20vw;
-    min-width: 200px;
+    /* min-width: 200px; */
     transition: transform 0.3s ease-out;
 }
 
@@ -71,18 +75,48 @@ body {
 
 #portfolio_detail {
     background-color: rgba(56, 58, 59, 0.795);
-    padding: 50px 5vw 50px 5vw;
+    /* padding: 50px 5vw 50px 5vw; */
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    display: block;
+    overflow-x: hidden;
+    transition: 0.2s;
+}
+
+#portfolio_detail > a{
+    color: #ececec;
+    font-size: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .detailed_entry {
     display: flex;
     justify-content: space-evenly;
-    
-    flex-wrap: wrap;
     margin: 0 0 0 0;
     padding: 3vw 2vw 3vw 2vw;
+}
+
+@media (max-width: 6in) {
+    .detailed_entry {
+        flex-direction: column;
+    }
+    
+}
+
+@media (min-width: 6in) {
+    .detailed_entry {
+        flex-direction: row;
+    }
+    .detailed_entry > img {
+        max-width: 40vw;
+    }
 }
 
 .detailed_entry:nth-child(even) {
@@ -102,15 +136,15 @@ body {
 }
 
 .detailed_img {
-    max-width: 40vw;
-    height:fit-content;
+    /* max-width: 40vw; */
+    height: fit-content;
     border-radius: 5vw;
     margin: 0 2vw 0 2vw;
 }
 
 .detailed_desc {
-    max-width: 40vw;
-    min-width: 300px;
+    /* max-width: 40vw; */
+    /* min-width: 300px; */
     margin-top: 45px;
     font-size: 22px;
 }
@@ -166,3 +200,24 @@ form button[type="submit"] {
     text-align: center;
     margin: 0;
 }
+
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+} */

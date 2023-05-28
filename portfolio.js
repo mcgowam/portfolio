@@ -8,10 +8,23 @@
      * Applies event listeners to core buttons and starts process of fetching all pokemon from server
      */
     function init() {
-
+        qsa(".card").forEach(cd =>
+            cd.addEventListener("click", openNav));
+        id("closebtn").addEventListener("click", closeNav);
     }
 
+    function openNav() {
+        console.log(id("portfolio_detail").style)
+        let port_det_style = id("portfolio_detail").style;
+        port_det_style.width = "100%";
+       //port_det_style.display = "block";
+    }
 
+    function closeNav() {
+        let port_det_style = id("portfolio_detail").style;
+        port_det_style.width = "0%";
+       // port_det_style.display = "none";
+    }
 
     /** ------------------------------ Helper Functions  ------------------------------ */
 

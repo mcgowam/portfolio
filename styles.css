@@ -67,6 +67,30 @@ body {
     height: auto;
 }
 
+
+#portfolio_detail {
+    background-color: rgba(56, 58, 59, 0.795);
+    padding: 50px 10px 50px 10px;
+}
+
+.detailed_entry {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.detailed_img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 5vw;
+}
+
+.detailed_desc {
+    margin: 25px;
+}
+
+
+
 hr {
     width: 84.755%;
     border-top: .7vh solid white;
@@ -77,14 +101,6 @@ hr {
     background-color: #273133;
     padding-top: 15px;
     margin-bottom: 0;
-}
-
-#contact_list {
-    text-align: center;
-}
-
-#contact_list li {
-    display: block;
 }
 
 form label {

@@ -84,14 +84,14 @@ body {
     z-index: 1;
     left: 0;
     top: 0;
-    display: block;
     overflow-x: hidden;
     transition: 0.2s;
+    align-items: stretch;
 }
 
 .closebtn {
     color: #ececec;
-    font-size: 10vw;
+    font-size: 12vw;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     text-align: center;

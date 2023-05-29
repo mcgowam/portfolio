@@ -73,7 +73,7 @@ body {
 }
 
 
-#portfolio_detail {
+.portfolio_detail {
     background-color: rgba(56, 58, 59, 0.795);
     /* padding: 50px 5vw 50px 5vw; */
     display: flex;
@@ -89,7 +89,7 @@ body {
     transition: 0.2s;
 }
 
-#portfolio_detail > a{
+.closebtn {
     color: #ececec;
     font-size: 10vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,20 +107,22 @@ body {
     .detailed_entry {
         flex-direction: column;
     }
-    
+
 }
 
 @media (min-width: 6in) {
     .detailed_entry {
         flex-direction: row;
     }
-    .detailed_entry > img {
+
+    .detailed_entry>img {
         max-width: 40vw;
     }
 }
 
 .detailed_entry:nth-child(even) {
     background-color: rgb(69, 72, 75);
+    flex-direction: reve;
 }
 
 .detailed_entry:nth-child(odd) {

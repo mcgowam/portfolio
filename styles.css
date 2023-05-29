@@ -115,6 +115,10 @@ body {
         flex-direction: row;
     }
 
+    .detailed_entry:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
     .detailed_entry>img {
         max-width: 40vw;
     }
@@ -122,7 +126,6 @@ body {
 
 .detailed_entry:nth-child(even) {
     background-color: rgb(69, 72, 75);
-    flex-direction: reve;
 }
 
 .detailed_entry:nth-child(odd) {

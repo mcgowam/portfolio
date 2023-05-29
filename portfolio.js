@@ -10,20 +10,26 @@
     function init() {
         qsa(".card").forEach(cd =>
             cd.addEventListener("click", openNav));
-        id("closebtn").addEventListener("click", closeNav);
+
+        qsa(".closebtn").forEach(clbt => {
+            clbt.addEventListener("click", closeNav);
+        });
+
+
     }
 
     function openNav() {
-        console.log(id("portfolio_detail").style)
-        let port_det_style = id("portfolio_detail").style;
-        port_det_style.width = "100%";
-       //port_det_style.display = "block";
+        /* let port_det_style = id("portfolio_detail").style;
+        port_det_style.width = "100%"; */
+        //port_det_style.display = "block";
+        id(new URL(this.href).hash.slice(1)).style.width = "100%";
     }
 
     function closeNav() {
-        let port_det_style = id("portfolio_detail").style;
-        port_det_style.width = "0%";
-       // port_det_style.display = "none";
+        /* let port_det_style = id("portfolio_detail").style;
+        port_det_style.width = "0%"; */
+        // port_det_style.display = "none";
+        id(this.parentNode.id).style.width = "0%";
     }
 
     /** ------------------------------ Helper Functions  ------------------------------ */

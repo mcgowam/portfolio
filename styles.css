@@ -100,20 +100,19 @@ body {
 
 .detailed_entry {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0 0 0 0;
     padding: 25px 20px 25px 20px;
 }
 
-@media (max-width: 6in) {
+@media (max-width: 900px) {
     .detailed_entry {
         flex-direction: column;
     }
 
 }
 
-@media (min-width: 6in) {
+@media (min-width: 900px) {
     .detailed_entry {
         flex-direction: row;
     }

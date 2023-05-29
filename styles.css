@@ -74,7 +74,7 @@ body {
 
 
 .portfolio_detail {
-    background-color: rgba(56, 58, 59, 0.795);
+    background-color: rgb(56, 58, 59);
     /* padding: 50px 5vw 50px 5vw; */
     display: flex;
     flex-direction: column;
@@ -86,19 +86,21 @@ body {
     top: 0;
     overflow-x: hidden;
     transition: 0.2s;
-    align-items: stretch;
 }
 
 .closebtn {
     color: #ececec;
-    font-size: 12vw;
+    font-size: 8vw;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
+    margin: -2vw 0 -2vw 0;
+    padding: 0 0 0 91vw;
 }
 
 .detailed_entry {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 0 0 0 0;
     padding: 25px 20px 25px 20px;
@@ -152,8 +154,9 @@ body {
     /* max-width: 40vw; */
     /* min-width: 300px; */
     margin-top: 45px;
-    font-size: 22px;
+    font-size: 25px;
     min-width: 200px;
+    padding: 15px;
 }
 
 
@@ -203,10 +206,6 @@ form button[type="submit"] {
     cursor: pointer;
 }
 
-#address {
-    text-align: center;
-    margin: 0;
-}
 
 
 /* ::-webkit-scrollbar {
